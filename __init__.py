@@ -27,9 +27,9 @@ class OVOSHomescreen(MycroftSkill):
         self.rtlMode = 1 if self.config_core.get("rtl", False) else 0
 
         # Populate skill IDs to use for data sources
-        self.weather_skill = self.settings.get("weather_skill") or "skill-weather.openvoiceos"
-        self.datetime_skill = self.settings.get("datetime_skill") or "skill-date-time.mycroftai"
-        self.skill_info_skill = self.settings.get("examples_skill") or "ovos-skills-info.openvoiceos"
+        self.weather_skill = self.settings.get("weather_skill") or "skill-weather.neon"
+        self.datetime_skill = self.settings.get("datetime_skill") or "date-time.neon"
+        self.skill_info_skill = self.settings.get("examples_skill") or "about.neon"
         self.weather_api = None
         self.datetime_api = None
         self.skill_info_api = None

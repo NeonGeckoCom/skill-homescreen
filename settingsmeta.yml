@@ -5,15 +5,15 @@ skillMetadata:
         - name: weather_skill
           type: text
           label: Weather
-          value: skill-weather.openvoiceos
+          value: skill-weather.neon
         - name: datetime_skill
           type: text
           label: Date and Time
-          value: skill-date-time.mycroftai
+          value: date-time.neon
         - name: examples_skill
           type: text
           label: Examples
-          value: ovos-skills-info.openvoiceos
+          value: about.neon
     - name: Personalization
       fields:
         - name: wallpaper
